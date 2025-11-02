@@ -1,0 +1,44 @@
+#Highwaymen
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: TH14ClothingOuterHighwaymenPatrolJacket
+  name: patrol leathers
+  description: A heavily modified leather jacket, worn over armor plating. Iconic to the Highwaymen.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14/Clothing/OuterClothing/Armor/patrolleathers.rsi
+  - type: Clothing
+    sprite: _TexanHeat14/Clothing/OuterClothing/Armor/patrolleathers.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.9
+        Heat: 0.85
+    priceMultiplier: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: N14FalloutArmorBase
+  id: TH14ClothingOuterHighwaymenArmoredLeatherJacket
+  name: reinforced leathers
+  description: A highly customized leather jacket, worn over military-grade armor. Symbol of fear throughout the dustbowl.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14\Clothing\OuterClothing\Armor\reinforcedleathers.rsi
+  - type: Clothing
+    sprite: _TexanHeat14\Clothing\OuterClothing\Armor\reinforcedleathers.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.7
+        Heat: 0.7
+    priceMultiplier: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+

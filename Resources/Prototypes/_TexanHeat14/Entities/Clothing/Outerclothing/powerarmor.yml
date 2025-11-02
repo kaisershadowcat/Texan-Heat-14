@@ -1,0 +1,24 @@
+- type: entity
+  parent: N14ClothingOuterBase
+  id: TH1414ClothingOuterPowerArmorT51highwaymenroadking
+  name: lone star power armor
+  description: A suit of T-51 previously issued to the Texas Highway Patrol for civil control, now stripped of eletronics and practically serving as very flashy metal armor for the Highwaymen. Only issued to the hightly feared Roadkings.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14\Clothing\OuterClothing\Armor\Power\t-51roadking.rsi
+  - type: Clothing
+    sprite: _TexanHeat14\Clothing\OuterClothing\Armor\Power\t-51roadking.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.20
+        Heat: 0.55
+        Caustic: 0.75
+        Radiation: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.55
+  - type: ClothingSpeedModifier
+    walkModifier: 0.50
+    sprintModifier: 0.50
