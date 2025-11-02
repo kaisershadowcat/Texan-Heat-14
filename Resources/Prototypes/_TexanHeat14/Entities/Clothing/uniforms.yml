@@ -31,4 +31,5 @@
   - type: Sprite
     sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/rageruniform.rsi
   - type: Clothing
-    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/patroluniform.rsi
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/rageruniform.rsi
+
