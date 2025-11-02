@@ -1,0 +1,34 @@
+#Highwaymen
+
+- type: entity
+  parent: N14ClothingUniformBase
+  id: TH14ClothingHighwaymenPatrolUniform
+  name: patrol uniform
+  description: An old highway patrol uniform with cut sleeves and hard-wearing jeans. Favorited by the Highwaymen.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/patroluniform.rsi
+  - type: Clothing
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/patroluniform.rsi
+
+- type: entity
+  parent: N14ClothingUniformBase
+  id: TH14ClothingHighwaymenRoadkillUniform
+  name: road rags
+  description: A tanktop and cheap jeans, used by Roadkill. Won't last very long on the tarmac, but neither will you.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/roadkilltanktop.rsi
+  - type: Clothing
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/roadkilltanktop.rsi
+
+- type: entity
+  parent: N14ClothingUniformBase
+  id: TH14ClothingHighwaymenRagerUniform
+  name: border patrol jacket
+  description: A tough pre-war border patrol uniform, commonly worn by Road Ragers.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/rageruniform.rsi
+  - type: Clothing
+    sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/patroluniform.rsi

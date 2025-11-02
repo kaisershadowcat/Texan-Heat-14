@@ -1,0 +1,18 @@
+- type: entity
+  parent: N14ClothingHeadHatBaseHelmetMetal
+  id: TH14ClothingHeadHatHighwaypatrolHelmetHighwaymen
+  name: highway patrol motorcycle helmet
+  description: A pre-war motorcycle helmet used by various police agencies. Repurposed by the Highwaymen.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14\Clothing\Head\Helmets\patrolhelmet.rsi
+  - type: Clothing
+    sprite: _TexanHeat14\Clothing\Head\Helmets\patrolhelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+    priceMultiplier: 0.5
