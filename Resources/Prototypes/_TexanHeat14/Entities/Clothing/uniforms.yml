@@ -33,3 +33,15 @@
   - type: Clothing
     sprite: _TexanHeat14/Clothing/Uniforms/Highwaymen/rageruniform.rsi
 
+#Texan brotherhood uniforms
+- type: entity
+  parent: N14ClothingUniformBase
+  id: TH14ClothingScribeuniform
+  name: brotherhood scribe uniform
+  description: a pair of jeans with a nice custom sewn shirt for the scribes of the brotherhood.
+  components:
+  - type: Sprite
+    sprite: _TexanHeat14/Clothing/Uniforms/TBos/Scribeuniform.rsi
+  - type: Clothing
+    sprite: _TexanHeat14/Clothing/Uniforms/TBos/Scribeuniform.rsi
+  
