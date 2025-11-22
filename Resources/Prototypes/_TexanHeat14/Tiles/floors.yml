@@ -1,0 +1,16 @@
+- type: tile 
+  id: FloorTH14Wasteland
+  name: tiles-wasteland-th14
+  sprite: /Textures/_TexanHeat14/Tiles/Desert-Soil3.png
+  variants: 4 
+  placementVariants: [0, 1, 2, 3]
+  baseTurf: FloorWasteland
+  isSubfloor: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: N14FootstepDirt
+  friction: 0.30
+  thermalConductivity: 0.04
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
