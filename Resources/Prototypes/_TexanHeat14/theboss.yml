@@ -1,0 +1,36 @@
+- type: job
+  id: LVCBoss
+  setPreference: true
+  overrideConsoleVisibility: true
+  canBeAntag: false
+  name: job-name-los-vaq-boss
+  description: job-description-los-vaq-boss
+  playTimeTracker: LVCBoss
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+      - Human
+      - Ghoul
+    - !type:CharacterDepartmentTimeRequirement
+      department: LosVaquerosCartel
+      min: 43200 # 12 hours
+  startingGear: LVCBoss
+  alwaysUseSpawner: true
+  icon: "JobIconHeadOfSecurity"
+  supervisors: job-supervisors-los-vaq-boss
+  access:
+  - 
+  - 
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Wastelander
+          - LosVaquerosCartel
+      
+- type: startingGear
+  id: LVCBossGear
+  equipment:
+- type: playTimeTracker
+  id: LVCBoss

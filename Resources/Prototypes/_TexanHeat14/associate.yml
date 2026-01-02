@@ -1,0 +1,36 @@
+- type: job
+  id: LVCAssociate
+  setPreference: true
+  overrideConsoleVisibility: true
+  canBeAntag: false
+  name: job-name-los-vaq-associate
+  description: job-description-los-vaq-associate
+  playTimeTracker: LVCAssociate
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+      - Human
+      - Ghoul
+    - !type:CharacterDepartmentTimeRequirement
+      department: Wastelander
+      min: 3600 # 1 hour
+  startingGear: LVCAssociate
+  alwaysUseSpawner: true
+  icon: "JobIconSecurityCadet"
+  supervisors: job-supervisors-los-vaq
+  access:
+  - 
+  - 
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Wastelander
+          - LosVaquerosCartel
+      
+- type: startingGear
+  id: LVCAssociateGear
+  equipment:
+- type: playTimeTracker
+  id: LVCAssociate
