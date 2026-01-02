@@ -1,0 +1,36 @@
+- type: job
+  id: LVCEnforcer
+  setPreference: true
+  overrideConsoleVisibility: true
+  canBeAntag: false
+  name: job-name-los-vaq-enforcer
+  description: job-description-los-vaq-enforcer
+  playTimeTracker: LVCEnforcer
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+      - Human
+      - Ghoul
+    - !type:CharacterDepartmentTimeRequirement
+      department: LosVaquerosCartel
+      min: 21600 # 6 hours
+  startingGear: LVCEnforcer
+  alwaysUseSpawner: true
+  icon: "JobIconSecurityOfficer"
+  supervisors: job-supervisors-los-vaq
+  access:
+  - 
+  - 
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: NpcFactionMember
+        factions:
+          - Wastelander
+          - LosVaquerosCartel
+      
+- type: startingGear
+  id: LVCEnforcerGear
+  equipment:
+- type: playTimeTracker
+  id: LVCEnforcer
